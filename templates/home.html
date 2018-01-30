@@ -1,5 +1,5 @@
 <div id="content-wrap" class="container-fluid">
-  <div class="row">
+  <div class="jumbotron">
     <div id="intro" class="col-md-3 col-md-offset-1">
         <div class="row">
           <h4>HELLO <strong>MY NAME IS </strong></h4>
@@ -10,9 +10,14 @@
             HOW TO CODE</h5>
           </div>
     </div>
+    <div class="row text-center">
+      <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+    </div>
   </div>
+
 <div class="row">
-  <div id="project-wrapper" class="container-fluid card-group" >
+
+  <div  id="projects" class="container-fluid card-group" >
       <div class="project card col-lg-4" ng-click="hCtrl.selectProject($index)" ng-repeat="proj in hCtrl.projects">
         <img width="100%" class="card-img-top img-responsive" ng-src="{{ proj.image_url }}" alt="image cap">
         <div class="card-block">
@@ -40,14 +45,5 @@
     </div>
   </div>
 
-
-
 </div>
-<div class="container">
-  <h2> GET IN TOUCH</h2>
-    <a href="https://www.facebook.com/judd.orcasitas" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/JDDRO" class="fa fa-twitter"></a>
-    <a href="mailto:orcasitas.jr@gmail.com" class="fa fa-google"></a>
-    <a href="https://www.linkedin.com/in/judd-orcasitas-5b8835122" class="fa fa-linkedin"></a>
-    <a href="https://www.instagram.com/jddr0/" class="fa fa-instagram"></a>
 </div>
