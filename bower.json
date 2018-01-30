@@ -1,0 +1,20 @@
+{
+  "name": "Judd Orcasitas Portfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/juddorcasitas/juddorcasitas.github.io",
+  "authors": [
+    "juddorcasitas <orcasitas.jr@gmail.com>"
+  ],
+  "description": "A portfolio website for Judd Orcasitas",
+  "keywords": [
+    "Portfolio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

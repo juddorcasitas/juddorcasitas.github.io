@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "CommenceIO Blog",
+      "link": "https://www.commenceio.com",
+      "description_short": "Open Blog Platform for Programming Tutorials",
+      "description_long": "CommenceIO is an open blogging platform for Web and Software development tutorials. The goal of the project is to pool web related instructions and helpful into a single website. The site is open to all at any skill level. From amateur to engineer, the website hopes to attract those who want to share their about programming.",
+      "technologies": [
+        "MySQL",
+        "Django",
+        "Python",
+        "HTML/CSS",
+        "Javascript"
+      ],
+      "status": "v1.0.0",
+      "image_url": "media/commenceio.jpg"
+    },
+    {
+      "id": 1,
+      "title": "Movie Search",
+      "link": "https://github.com/juddorcasitas/movie-search",
+      "description_short": "Movie index application",
+      "description_long": "Example Front-End application for displaying movie information. Using AngulaJS and JS libraries to create a better user experience.",
+      "technologies": [
+        "AnglarJS",
+        "AJAX",
+        "HTML/CSS",
+        "Javascript",
+        "Node for Tests"
+      ],
+      "status": "development",
+      "image_url": "media/movie_search.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Patron Career Staffing",
+      "link": "http://www.patroncareer.ca",
+      "description_short": "Patron Career Staffing Website",
+      "description_long": "Patron Career Staffing is a staffing agency in the Greater Toronto Area. Their website needed a landing page, company details and agent registration and contact forms. Considering SEO and client specifications, WordPress was the best choice for their needs.",
+      "technologies": [
+        "MySQL",
+        "PHP",
+        "HTML/CSS",
+        "Javascript"
+      ],
+      "status": "N/A",
+      "image_url": "media/pcs.jpg"
+
+    }
+  ]
+}

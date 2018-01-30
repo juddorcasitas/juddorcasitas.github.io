@@ -1,0 +1,53 @@
+<div id="content-wrap" class="container-fluid">
+  <div class="row">
+    <div id="intro" class="col-md-3 col-md-offset-1">
+        <div class="row">
+          <h4>HELLO <strong>MY NAME IS </strong></h4>
+        </div>
+        <div class="row"><h1> Judd Orcasitas</h1></div>
+        <div class="row"><h5> I'M A FULL STACK DEVELOPER BASED IN TORONTO,
+          WHEN IM NOT TINKERING WITH NEW FRAMEWORKS I TEACH KIDS
+            HOW TO CODE</h5>
+          </div>
+    </div>
+  </div>
+<div class="row">
+  <div id="project-wrapper" class="container-fluid card-group" >
+      <div class="project card col-lg-4" ng-click="hCtrl.selectProject($index)" ng-repeat="proj in hCtrl.projects">
+        <img width="100%" class="card-img-top img-responsive" ng-src="{{ proj.image_url }}" alt="image cap">
+        <div class="card-block">
+          <h5 class="card-title"> {{ proj.title }}</h5>
+          <p class="card-text"> {{ proj.description_short }}</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div ng-show="hCtrl.modal" class="modal" ng-click="hCtrl.modalOff()">
+
+  <!-- Modal content -->
+  <div class="container modal-content">
+    <span class="close-btn" ng-click="hCtrl.modalOff()"> <h1>&times;</h1></span>
+    <img width="100%" class="col-md-5" ng-src="{{ hCtrl.selectedProject.image_url }}" alt="image cap">
+    <div class="card-block col-md-5">
+      <h2 class="card-title"> {{ hCtrl.selectedProject.title }}</h2>
+      <h5 class="card-text"> {{ hCtrl.selectedProject.description_long }}</h5>
+      <p>Website: <a href="{{ hCtrl.selectedProject.link }}">{{ hCtrl.selectedProject.link }}</a></p>
+      <p>Technologies:</p> <ul>
+                        <li ng-repeat="t in hCtrl.selectedProject.technologies"> {{ t }}</li>
+                    </ul>
+    </div>
+  </div>
+
+
+
+</div>
+<div class="container">
+  <h2> GET IN TOUCH</h2>
+    <a href="https://www.facebook.com/judd.orcasitas" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/JDDRO" class="fa fa-twitter"></a>
+    <a href="mailto:orcasitas.jr@gmail.com" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/in/judd-orcasitas-5b8835122" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/jddr0/" class="fa fa-instagram"></a>
+</div>
